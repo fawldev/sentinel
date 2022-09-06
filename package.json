@@ -1,6 +1,6 @@
 {
     "name": "@fawldev/sentinel",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "description": "helper functions for sanitizing user input",
     "exports": "./index.js",
     "type": "module",
