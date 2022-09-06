@@ -1,6 +1,6 @@
 {
   "name": "sentinel",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "helper functions for sanitizing user input",
   "exports": "./index.js",
   "type": "module",
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fawlapp/sentinel.git"
+    "url": "https://github.com/fawldev/sentinel.git"
   },
   "author": "fawl",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fawlapp/sentinel/issues"
+    "url": "https://github.com/fawldev/sentinel/issues"
   },
-  "homepage": "https://github.com/fawlapp/sentinel"
+  "homepage": "https://github.com/fawldev/sentinel"
 }
