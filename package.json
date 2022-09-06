@@ -1,20 +1,20 @@
 {
-    "name": "sentinel",
-    "version": "0.1.7",
-    "description": "helper functions for sanitizing user input",
-    "exports": "./index.js",
-    "type": "module",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/fawlapp/sentinel.git"
-    },
-    "author": "fawl",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/fawlapp/sentinel/issues"
-    },
-    "homepage": "https://github.com/fawlapp/sentinel"
+  "name": "sentinel",
+  "version": "0.1.8",
+  "description": "helper functions for sanitizing user input",
+  "exports": "./index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fawlapp/sentinel.git"
+  },
+  "author": "fawl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fawlapp/sentinel/issues"
+  },
+  "homepage": "https://github.com/fawlapp/sentinel"
 }
