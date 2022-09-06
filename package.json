@@ -1,6 +1,6 @@
 {
-    "name": "@fawldev/sentinel",
-    "version": "0.1.6",
+    "name": "sentinel",
+    "version": "0.1.7",
     "description": "helper functions for sanitizing user input",
     "exports": "./index.js",
     "type": "module",
@@ -11,10 +11,7 @@
         "type": "git",
         "url": "https://github.com/fawlapp/sentinel.git"
     },
-    "publishConfig": {
-        "registry": "https://registry.npmjs.org"
-    },
-    "author": "@fawlapp",
+    "author": "fawl",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/fawlapp/sentinel/issues"
