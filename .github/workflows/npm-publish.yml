@@ -28,10 +28,10 @@ jobs:
     - uses: actions/setup-node@v3
       with:
         registry-url: 'https://npm.pkg.github.com'
-        scope: '@fawlapp'
+        scope: '@fawldev'
     - run: npm ci
-    - run: echo "`jq '.name="@fawlapp/sentinel"' package.json`" > package.json
-    - run: echo registry=https://npm.pkg.github.com/fawlapp >> .npmrc
+    - run: echo "`jq '.name="@fawldev/sentinel"' package.json`" > package.json
+    - run: echo registry=https://npm.pkg.github.com/fawldev >> .npmrc
     - run: npm publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
