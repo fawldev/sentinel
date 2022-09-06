@@ -24,6 +24,7 @@ jobs:
         scope: '@fawlapp'
     - run: npm ci
     - run: echo registry=https://npm.pkg.github.com/fawlapp >> .npmrc
-    - run: npm publish --access public
+    - run: npm login --scope=@fawlapp --registry=https://npm.pkg.github.com
+    - run: npm publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
